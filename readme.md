@@ -18,6 +18,8 @@ error.
   , UndecidableInstances
 #-}
 
+import Hascon
+
 data Foo = Foo1 | Foo2
 mkHasCon ''Foo
 
